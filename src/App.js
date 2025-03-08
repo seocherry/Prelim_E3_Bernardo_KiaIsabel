@@ -9,7 +9,6 @@ import Navbar from "./Navbar";
 
 function App() {
   const [user, setUser] = useState(() => {
-    // Load user data from localStorage
     const storedUser = localStorage.getItem("user");
     return storedUser
       ? JSON.parse(storedUser)
