@@ -1,0 +1,34 @@
+body.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #6c757d;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.welcome-text {
+  color: #000000;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.dark-mode .welcome-text {
+  color: #000000;
+}
