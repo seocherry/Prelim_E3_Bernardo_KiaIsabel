@@ -21,7 +21,7 @@ function App() {
 
   const updateUser = (newUser) => {
     setUser(newUser);
-    localStorage.setItem("user", JSON.stringify(newUser)); // Save user data
+    localStorage.setItem("user", JSON.stringify(newUser));
   };
 
   const toggleDarkMode = () => {
