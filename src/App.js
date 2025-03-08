@@ -20,7 +20,6 @@ function App() {
         };
   });
 
-  // Function to update user and save to localStorage
   const updateUser = (newUser) => {
     setUser(newUser);
     localStorage.setItem("user", JSON.stringify(newUser)); // Save user data
