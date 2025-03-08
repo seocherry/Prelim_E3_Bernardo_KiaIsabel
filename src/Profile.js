@@ -3,7 +3,6 @@ import UserInfo from "./UserInfo";
 import ProfilePicture from "./ProfilePicture";
 
 const Profile = ({ user, setUser }) => {
-  // Load image from user state or localStorage
   const [image, setImage] = useState(
     () => user.imageUrl || localStorage.getItem("profileImage")
   );
